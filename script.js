@@ -1,6 +1,7 @@
 let taskInput = document.getElementById('taskInput');
 const addBtn = document.getElementById('addBtn');
 const taskList = document.getElementById('taskList');
+const tasks_array =[];
 
 
 
@@ -53,6 +54,16 @@ function createTask() {
             checkbox.remove();
     
         })
+        ////latest work can be removed easily without error 
+        const taskObject ={
+            task_text:"input",
+            complete_status:"false"
+        }
+        tasks_array.push(taskObject);
+        localStorage.setItem('my_data_in _browser',JSON.stringify(taskObject));
+        
+
+        
         
     }
 
