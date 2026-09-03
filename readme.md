@@ -21,5 +21,5 @@
 12. Add click listener to Delete button //done
 13. Remove <li> //done
 
-14. Add click listener to task text 
-15. Toggle "completed"
+14. Add click listener to task text  //done
+15. Toggle "completed" //done
